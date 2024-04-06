@@ -74,16 +74,16 @@ const Home = () => {
 
       <div className="games-container">
         <h2 style={{ margin: '1rem', textAlign: 'center' }}>Games</h2>
-        <div className="games-section">
+        <div className="games-section ">
           <h3>Games1</h3>
-          <div className="card-container">
+          <div className="card-container  mb-28">
             {card.map((cardItem, index) => (
-              <div key={index} className="card" onClick={handleCardClick}>
+              <div key={index} className="card bg-gradient-to-r from-cyan-300 to-pink-300" onClick={handleCardClick}>
                 {/* Image */}
-                <img src={cardItem.image} alt={cardItem.name} className="card-image" />
+                <img src={cardItem.image} alt={cardItem.name} className="card-image " />
                 {/* Scrollable Text */}
                 <div className="card-text-container">
-                  <div className="scrollable-text">{cardItem.name}</div>
+                  <div className="scrollable-text text-white">{cardItem.name}</div>
                 </div>
               </div>
             ))}

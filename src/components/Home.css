@@ -64,10 +64,10 @@
 }
 
 .card-image {
-  width: 200px;
+  width: 170px;
   border-radius: 10px;
   height: 150px;
-  margin-bottom: 0.5rem; /* Add margin */
+  margin-bottom: 0.5rem; 
 }
 
 .scrollable-text {
