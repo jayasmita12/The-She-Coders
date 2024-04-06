@@ -1,0 +1,44 @@
+/* Add styles for the main container */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Add styles for the heading */
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for the map container */
+  .map-container {
+    margin-bottom: 20px;
+    /* Add styles for the map component here */
+  }
+  
+  /* Add styles for the user details container */
+  .user-details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Add styles for the current user heading */
+  .user-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Add styles for the list of other users */
+  .user-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Add styles for each other user */
+  .user-details li {
+    margin-bottom: 5px;
+  }
+  

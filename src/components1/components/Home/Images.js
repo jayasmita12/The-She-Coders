@@ -1,0 +1,10 @@
+export { default as ticTacToe } from "../images/tik-tak-toe.png";
+export { default as wordle } from "../images/mine-craft.avif";
+export { default as mineCraft } from "../images/ludo.png";
+export { default as counterStrike } from "../images/rummy.jpeg";
+export { default as dota } from "../images/rummy.jpeg";
+export { default as chess } from "../images/rummy.jpeg";
+export { default as ludo } from "../images/rummy.jpeg";
+export { default as rummy } from "../images/rummy.jpeg";
+export { default as poker } from "../images/rummy.jpeg";
+export { default as callOfDuty } from "../images/rummy.jpeg";
