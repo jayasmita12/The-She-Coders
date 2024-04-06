@@ -4,8 +4,16 @@ import Navbar from './Navbar';
 import banner1 from "./images/banner.jpg";
 import banner2 from "./images/banner2.jpg";
 import banner3 from "./images/banner3.jpg";
+import tic from "./images/tik-tak-toe.png"
+import minecraft from "./images/mine-craft.avif"
+import ludo from "./images/ludo.png"
+import rummy from "./images/rummy.jpeg"
+// import tic from "./images/tik-tak-toe.png"
+// import tic from "./images/tik-tak-toe.png"
+
 import "./Home.css";
 import { FaSearchLocation, FaTimes } from 'react-icons/fa'; // Import FaTimes icon
+
 
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -13,16 +21,16 @@ const Home = () => {
   const navigate = useNavigate(); // Initialize useNavigate hook
 
   const card = [
-    {name: "Tic Tac Toe", image: "./images/tik-tak-toe.png"},
-    {name: "Wordle", image: "../images/mine-craft.avif"},
-    {name: "Mine Craft", image: "../images/ludo.png"},
-    {name: "CounterStrike", image: "../images/rummy.jpeg"},
-    {name: "Dota", image: "../images/rummy.jpeg"},
-    {name: "Chess", image: "../images/rummy.jpeg"},
-    {name: "Ludo", image: "../images/rummy.jpeg"},
-    {name: "Rummy", image: "../images/rummy.jpeg"},
-    {name: "Poker", image: "../images/rummy.jpeg"},
-    {name: "Call of Duty", image: "../images/rummy.jpeg"}
+    {name: "Tic Tac Toe", image: tic},
+    {name: "Wordle", image: minecraft},
+    {name: "Mine Craft", image: ludo},
+    {name: "CounterStrike", image: rummy},
+    {name: "Dota", image: rummy},
+    {name: "Chess", image: rummy},
+    {name: "Ludo", image: rummy},
+    {name: "Rummy", image: rummy},
+    {name: "Poker", image: rummy},
+    {name: "Call of Duty", image: rummy}
   ];
 
   useEffect(() => {
