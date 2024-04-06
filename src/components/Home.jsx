@@ -54,7 +54,7 @@ const Home = () => {
   }
 
   const handleSearchLive = () => {
-    navigate('/liveuser'); // Navigate to the /liveuser page using useNavigate
+    navigate('/tic-tac-toe'); // Navigate to the /liveuser page using useNavigate
   }
 
   const handleClosePopup = () => {
@@ -78,14 +78,14 @@ const Home = () => {
           <h3>Games1</h3>
           <div className="card-container">
             {card.map((cardItem, index) => (
-              <Link to="/tic-tac-toe"><div key={index} className="card" onClick={handleCardClick}>
+              <div key={index} className="card" onClick={handleCardClick}>
                 {/* Image */}
                 <img src={cardItem.image} alt={cardItem.name} className="card-image" />
                 {/* Scrollable Text */}
                 <div className="card-text-container">
                   <div className="scrollable-text">{cardItem.name}</div>
                 </div>
-              </div></Link>
+              </div>
             ))}
           </div>
         </div>
